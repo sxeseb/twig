@@ -1,0 +1,19 @@
+
+{% extends 'base.html.twig' %}
+
+{% block title %} Intro to Twig {% endblock %}
+
+{% block content %}
+    <div class="row justify-content-center">
+    {% for prod in products %}
+        <div class="card col-sm-4 px-0" style="width: 18rem;">
+            <img class="card-img-top" src="https://via.placeholder.com/150" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">{{ prod['name']}}</h5>
+                <p class="card-text">{{ prod['desc'] }}</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+    {% endfor %}
+    </div>
+{% endblock %}

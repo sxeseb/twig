@@ -1,0 +1,12 @@
+{
+    "name": "sebast/twig1",
+    "require": {
+        "twig/twig": "^2.7"
+    },
+    "authors": [
+        {
+            "name": "Sebastien Guerin",
+            "email": "sebast.guerin@gmail.com"
+        }
+    ]
+}
